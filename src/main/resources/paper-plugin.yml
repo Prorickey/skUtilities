@@ -1,7 +1,10 @@
 name: skUtilities
 description: An addon for skript that adds conversions, utilities, files and much more.
-author: tim740
+authors: [ tim740(Original Author), Prorickey ]
 website: https://tim740.github.io/
 main: uk.tim740.skUtilities.skUtilities
-version: 0.9.2
-depend: [Skript]
+version: ${version}
+dependencies:
+  server:
+    Skript:
+      load: BEFORE

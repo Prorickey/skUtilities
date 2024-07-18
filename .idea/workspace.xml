@@ -1,20 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1e2f07d6-ec70-49f3-a755-152b4121a1a2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/MetricsLiteO.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/skUtilities.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/skUtilities.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latest.ver" afterPath="$PROJECT_DIR$/latest.ver" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/plugin.yml" afterPath="$PROJECT_DIR$/src/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/UpdateChecker.java" afterPath="$PROJECT_DIR$/src/uk/tim740/skUtilities/UpdateChecker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/skUtilities.java" afterPath="$PROJECT_DIR$/src/uk/tim740/skUtilities/skUtilities.java" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/MetricsLite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/Reg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/UpdateChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprBase64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprClearAccented.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprDateParsed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprDateToUnix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprEncrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprFromBin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprFromUnicode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprHexToRgb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprHexaToNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprMirrorTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprMorse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprNumToHexa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprRandomizeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprRgbToHex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprToAscii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprToBin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprToUpperLower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprUnixToDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/convert/ExprUnixToFormattedDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/CondFileExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/CondIsDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/CondIsExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/CondIsFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/CondIsSymbolic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/EffCreateFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/EffDeleteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/EffFileDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/EffFileRenameMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/EffInsertLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/EffRunApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/EffRunCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/EffUnzip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/EffZipDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/EffZipFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/ExprDirList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/ExprDiskSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/ExprFileDirSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/ExprFileDirSizeBytes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/ExprFileLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/ExprFileNameExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/ExprFileTimeAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/ExprGetPathASR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/ExprRunCmdOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/ExprZipList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/SExprEditLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/SExprFileAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/SExprFileContents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/SExprFileOwner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/EvtFileCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/EvtFileCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/EvtFileDeletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/EvtFileDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/EvtFileMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/EvtFileRename.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/EvtFileWipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/EvtFileWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/EvtFileZip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/EvtRunApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/EvtRunCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/EvtUnzip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/files/event/ExprFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/skUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlContents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlLastModified.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlOnlineState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlReadLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlResponseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlSSLAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlSSLIssueExpire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlSSLSerialNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlSSLVerifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlSSLVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/url/ExprUrlSizeBytes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/CondStartsEndsWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/CondisOS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/CondisTimeZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/EffReloadConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/EffRunOpCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/EffSkReloadAliases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprCaseLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprCpuCores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprCpuSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprDateInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprGetJsonIDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprGetRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprGetSysProp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprGetTimeZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprLoaded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprLoadedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprRam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprSysTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprTimeInTimeZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprTimeZoneList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/util/ExprVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/yaml/CondYamlExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/tim740/skUtilities/yaml/SExprYaml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/paper-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest.ver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skUtilities.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/MetricsLite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/Reg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/UpdateChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprBase64.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprClearAccented.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprDateParsed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprDateToUnix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprEncrypt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprFromBin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprFromString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprFromUnicode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprHexToRgb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprHexaToNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprMirrorTxt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprMorse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprNumToHexa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprRandomizeString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprRgbToHex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprToAscii.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprToBin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprToUpperLower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprUnixToDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/convert/ExprUnixToFormattedDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/CondFileExists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/CondIsDirectory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/CondIsExecutable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/CondIsFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/CondIsSymbolic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/EffCreateFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/EffDeleteFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/EffFileDownload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/EffFileRenameMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/EffInsertLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/EffRunApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/EffRunCmd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/EffUnzip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/EffZipDirectory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/EffZipFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/ExprDirList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/ExprDiskSpace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/ExprFileDirSize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/ExprFileDirSizeBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/ExprFileLines.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/ExprFileNameExt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/ExprFileTimeAttributes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/ExprGetPathASR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/ExprRunCmdOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/ExprZipList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/SExprEditLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/SExprFileAttribute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/SExprFileContents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/SExprFileOwner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/EvtFileCopy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/EvtFileCreation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/EvtFileDeletion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/EvtFileDownload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/EvtFileMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/EvtFileRename.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/EvtFileWipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/EvtFileWrite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/EvtFileZip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/EvtRunApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/EvtRunCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/EvtUnzip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/files/event/ExprFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/skUtilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlContents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlLastModified.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlLines.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlOnlineState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlReadLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlResponseCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlSSLAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlSSLIssueExpire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlSSLSerialNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlSSLVerifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlSSLVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlSize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/url/ExprUrlSizeBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/CondStartsEndsWith.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/CondisOS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/CondisTimeZone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/EffReloadConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/EffRunOpCmd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/EffSkReloadAliases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprCaseLength.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprCpuCores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprCpuSpec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprDateInner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprGetJsonIDS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprGetRegion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprGetSysProp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprGetTimeZone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprLoaded.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprLoadedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprRam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprSysTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprTimeInTimeZone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprTimeZoneList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/util/ExprVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/yaml/CondYamlExists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/tim740/skUtilities/yaml/SExprYaml.java" beforeDir="false" />
     </list>
-    <ignored path="skUtilities.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/bin/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,11 +242,22 @@
     <option name="hideWarnings" value="true" />
     <option name="HIDE_WARNINGS" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="skUtilities">
-      <favorite_root url="uk.tim740.skUtilities.util.ExprLoaded" module="skUtilities" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
-    </favorites_list>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -59,6 +285,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -145,12 +372,16 @@
       </list>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="24" />
     <option name="width" value="1378" />
     <option name="height" value="712" />
   </component>
+  <component name="ProjectId" id="2jR01Cdekenvhk3WQdQQ0ALE6Kd" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -259,33 +490,33 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
-    <property name="ToolWindowFind.ShowToolbar" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last.edited.regexp" value=" " />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Admin/java projects/skUtilities/src/uk/tim740/skUtilities/util/EffPrintTag.java" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="53" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="53" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="53" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="486" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="53" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="53" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="53" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="486" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspace\Minecraft\skUtilities\src\main\java" />
+      <recent name="C:\Workspace\Minecraft\skUtilities\src\main\resources" />
+      <recent name="C:\Users\Admin\java projects\skUtilities\src\uk\tim740\skUtilities\files" />
+      <recent name="C:\Users\Admin\java projects\skUtilities\src\uk\tim740\skUtilities\util" />
+      <recent name="C:\Users\Admin\java projects\skUtilities\src\uk\tim740\skUtilities" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="uk.tim740.skUtilities.util" />
       <recent name="uk.tim740.skUtilities.cpu" />
@@ -293,25 +524,6 @@
       <recent name="uk.tim740.skUtilities.files.event" />
       <recent name="uk.tim740.skUtilities.files" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\java projects\skUtilities\src\uk\tim740\skUtilities\files" />
-      <recent name="C:\Users\Admin\java projects\skUtilities\src\uk\tim740\skUtilities\util" />
-      <recent name="C:\Users\Admin\java projects\skUtilities\src\uk\tim740\skUtilities" />
-      <recent name="C:\Users\Admin\java projects\skUtilities\src\uk\tim740\skUtilities\convert" />
-      <recent name="C:\Users\Admin\java projects\skUtilities\src" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -337,6 +549,30 @@
         <option name="GAPID_DISABLE_PCS" value="false" />
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -370,134 +606,38 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\Admin\AppData\Roaming\Subversion</configuration>
   </component>
@@ -508,6 +648,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1455549243806</updated>
+      <workItem from="1721334367400" duration="793000" />
     </task>
     <task id="LOCAL-00373" summary="fix line count&#10;">
       <created>1478015190632</created>
@@ -890,6 +1031,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32724252" sideWeight="0.49632892" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.yml" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
@@ -902,10 +1046,8 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="prefix events" />
     <MESSAGE value="made yaml error better" />
     <MESSAGE value="config edits" />
@@ -933,12 +1075,6 @@
     <MESSAGE value="v0.9.1" />
     <option name="LAST_COMMIT_MESSAGE" value="v0.9.1" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="75" />
-    </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
