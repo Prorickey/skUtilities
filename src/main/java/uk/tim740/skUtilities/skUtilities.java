@@ -17,8 +17,11 @@ import java.time.Duration;
 
 public class skUtilities extends JavaPlugin {
 
+  private static skUtilities instance;
+
   @Override
   public void onEnable() {
+    instance = this;
     long s = System.currentTimeMillis();
     Skript.registerAddon(this);
     getDataFolder().mkdirs();
@@ -65,7 +68,7 @@ public class skUtilities extends JavaPlugin {
         Reg.utils();
       }
   } catch (Exception e) {
-      e.printStackTrace();
+      getLogger().severe(e.getMessage());
     }
     Skript.registerEffect(EffReloadConfig.class, "reload %string%'s config", "reload config of %string%");
 
@@ -89,7 +92,7 @@ public class skUtilities extends JavaPlugin {
   }
 
   public static void prSysE(String s, String c) {
-    Bukkit.getServer().getLogger().severe("[skUtilities] v" + getVer() + ": " + s + " (" + c + ".class)");
+    getInstance().getLogger().severe("[skUtilities] v" + getVer() + ": " + s + " (" + c + ".class)");
     if (Bukkit.getPluginManager().getPlugin("skUtilities").getConfig().getBoolean("broadcastErrors", true)) {
       Bukkit.broadcast(ChatColor.RED + "[skUtilities: WARN]" + ChatColor.GRAY + " v" + getVer() + ": " + s + " (" + c + ".class)", "skUtilities.error");
     }
@@ -97,14 +100,14 @@ public class skUtilities extends JavaPlugin {
 
   public static void prSysE(String s, String c, Exception e) {
     if (Bukkit.getPluginManager().getPlugin("skUtilities").getConfig().getBoolean("debug", true)) {
-      e.printStackTrace();
+      getInstance().getLogger().severe(e.getMessage());
     } else {
       prSysE(s, c);
     }
   }
 
   public static void prSysI(String s) {
-    Bukkit.getServer().getLogger().info("[skUtilities] v" + getVer() + ": " + s);
+    getInstance().getLogger().info("v" + getVer() + ": " + s);
   }
 
   private static String getVer() {
@@ -147,5 +150,9 @@ public class skUtilities extends JavaPlugin {
     } else {
       return pth;
     }
+  }
+
+  public static skUtilities getInstance() {
+    return instance;
   }
 }

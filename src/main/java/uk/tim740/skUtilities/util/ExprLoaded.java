@@ -2,6 +2,7 @@ package uk.tim740.skUtilities.util;
 
 import ch.njol.skript.ScriptLoader;
 import ch.njol.skript.Skript;
+import ch.njol.skript.command.Commands;
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.ExpressionInfo;
 import ch.njol.skript.lang.SkriptParser.ParseResult;
@@ -24,25 +25,21 @@ public class ExprLoaded extends SimpleExpression<Number> {
   protected Number[] get(Event e) {
     switch (ty) {
       case 0: {
-        return new Number[]{ScriptLoader.loadedCommands()};
+        return new Number[]{Commands.getScriptCommands().size()};
       } case 1: {
-        return new Number[]{ScriptLoader.loadedFunctions()};
+        return new Number[]{ScriptLoader.getLoadedScripts().size()};
       } case 2: {
-        return new Number[]{ScriptLoader.loadedScripts()};
-      } case 3: {
-        return new Number[]{ScriptLoader.loadedTriggers()};
-      } case 4: {
         return new Number[]{Skript.getStatements().size()};
-      } case 5: {
+      } case 3: {
         return new Number[]{Variables.numVariables()};
-      } case 6: {
+      } case 4: {
         //System.out.println("aliases loaded " + (ScriptLoader.getScriptAliases()).getClass());
         return new Number[]{0};
-      } case 7: {
+      } case 5: {
         return new Number[]{Skript.getEvents().size()};
-      } case 8: {
+      } case 6: {
         return new Number[]{Skript.getEffects().size()};
-      } case 9: {
+      } case 7: {
         int size = 0;
         Iterator<ExpressionInfo<?, ?>> exprs = Skript.getExpressions();
         while (exprs.hasNext()) {

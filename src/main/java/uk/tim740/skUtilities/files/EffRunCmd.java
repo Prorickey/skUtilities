@@ -4,8 +4,8 @@ import ch.njol.skript.lang.Effect;
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.SkriptParser.ParseResult;
 import ch.njol.util.Kleenean;
-import org.apache.commons.io.IOUtils;
 import org.bukkit.event.Event;
+import org.codehaus.plexus.util.IOUtil;
 import org.jetbrains.annotations.Nullable;
 import uk.tim740.skUtilities.skUtilities;
 
@@ -24,7 +24,7 @@ public class EffRunCmd extends Effect {
     try {
       Process rp = Runtime.getRuntime().exec(cmd);
       rp.waitFor();
-      o = IOUtils.toString(rp.getInputStream());
+      o = IOUtil.toString(rp.getInputStream());
     } catch (IOException | InterruptedException x) {
       skUtilities.prSysE("Can't run Command: '" + cmd + "' - '" + x.getMessage(), getClass().getSimpleName() + "'", x);
     }

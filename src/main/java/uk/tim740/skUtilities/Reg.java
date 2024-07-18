@@ -294,7 +294,7 @@ class Reg {
     Skript.registerExpression(ExprCpuCores.class, Number.class, ExpressionType.PROPERTY, "[skutil[ities] ]number of (cpu|processor) cores", "[skutil[ities] ](cpu|processor) core count");
     Skript.registerExpression(ExprCpuSpec.class, String.class, ExpressionType.PROPERTY, "[skutil[ities] ](0¦name|1¦arch[itecture]) of (cpu|processor)", "[skutil[ities] ](cpu|processor) (0¦name|1¦arch[itecture])");
 
-    Skript.registerExpression(ExprLoaded.class, Number.class, ExpressionType.PROPERTY, "[skutil[ities] ]number of[ loaded] (0¦(commands|cmds)|1¦functions|2¦s(c|k)ripts|3¦triggers|4¦statements|5¦variables|6¦aliases|7¦events|8¦effects|9¦expressions|10¦conditions)");
+    Skript.registerExpression(ExprLoaded.class, Number.class, ExpressionType.PROPERTY, "[skutil[ities] ]number of[ loaded] (0¦(commands|cmds)|1¦s(c|k)ripts|2¦statements|3¦variables|4¦aliases|5¦events|6¦effects|7¦expressions|8¦conditions)");
     Skript.registerExpression(ExprLoadedList.class, String.class, ExpressionType.PROPERTY, "[skutil[ities] ](0¦plugins|1¦addons) list", "[skutil[ities] ]list of (0¦plugins|1¦addons)");
     Skript.registerExpression(ExprVersion.class, String.class, ExpressionType.PROPERTY, "[skutil[ities] ]%string%'s version", "[skutil[ities] ]version of %string%");
     Skript.registerExpression(ExprSysTime.class, Number.class, ExpressionType.PROPERTY, "[skutil[ities] ][current ]system (0¦nanos[econds]|1¦millis[econds]|2¦seconds)");

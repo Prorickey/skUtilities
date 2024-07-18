@@ -5,8 +5,8 @@ import ch.njol.skript.lang.SkriptParser.ParseResult;
 import ch.njol.skript.lang.util.SimpleExpression;
 import ch.njol.util.Kleenean;
 import com.google.common.io.Files;
-import org.apache.commons.io.FilenameUtils;
 import org.bukkit.event.Event;
+import org.codehaus.plexus.util.FileUtils;
 import org.jetbrains.annotations.Nullable;
 import uk.tim740.skUtilities.skUtilities;
 
@@ -25,7 +25,7 @@ public class ExprFileNameExt extends SimpleExpression<String> {
       if (ty == 0) {
         return new String[]{Files.getNameWithoutExtension(pth)};
       } else {
-        return new String[]{FilenameUtils.getExtension(pth)};
+        return new String[]{FileUtils.getExtension(pth)};
       }
     } catch (Exception x) {
       skUtilities.prSysE("File: '" + pth + "' doesn't exist!", getClass().getSimpleName(), x);

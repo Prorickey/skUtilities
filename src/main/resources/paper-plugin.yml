@@ -4,6 +4,7 @@ authors: [ tim740(Original Author), Prorickey ]
 website: https://tim740.github.io/
 main: uk.tim740.skUtilities.skUtilities
 version: ${version}
+api-version: "1.20"
 dependencies:
   server:
     Skript:

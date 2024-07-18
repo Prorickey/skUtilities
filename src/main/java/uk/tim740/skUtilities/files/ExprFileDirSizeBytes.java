@@ -4,8 +4,8 @@ import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.SkriptParser.ParseResult;
 import ch.njol.skript.lang.util.SimpleExpression;
 import ch.njol.util.Kleenean;
-import org.apache.commons.io.FileUtils;
 import org.bukkit.event.Event;
+import org.codehaus.plexus.util.FileUtils;
 import org.jetbrains.annotations.Nullable;
 import uk.tim740.skUtilities.skUtilities;
 
